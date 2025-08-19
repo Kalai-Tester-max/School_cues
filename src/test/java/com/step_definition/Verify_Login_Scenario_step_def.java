@@ -22,6 +22,7 @@ public class Verify_Login_Scenario_step_def {
 			LoginPage.getInstance().getPASSWORD().sendKeys(Constants_Class.PASSWORD);
 			LoginPage.getInstance().getLOGINBTN().click();
 			System.out.println("✅User is sucessfully logged in");
+			System.out.println("✅User is sucessfully logged in-fot git push");
 		} catch (Exception e) {
 			System.out.println(e);
 			Common_Utils.getInstance().screenShot();
